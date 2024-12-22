@@ -33,7 +33,7 @@ jobs:
 
       # 5. Upload Cypress results (screenshots, videos)
       - name: Upload Cypress results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: cypress-results
           path: cypress/results  # Adjust if you want to upload specific artifacts
